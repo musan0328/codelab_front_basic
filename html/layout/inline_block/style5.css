@@ -1,0 +1,23 @@
+@charset "utf-8"
+
+.header {
+  background-color:  	#CCFFFF;
+}
+
+.nav {
+   display:inline-block;
+   /* vertical-alignプロパティは、行のなかでのテキストや画像などの縦方向の揃え位置を指定する際に使用*/
+   display: block;
+   text-align: center;
+   margin: 0 auto;
+   padding: 30px;
+   width: 30%;
+   max-width: 100px;
+   background-color: #FFCCFF;
+}
+
+
+.column {
+  display: inline-block;    /*  要素を横並びにする */
+  background-color: #66CC66;
+}

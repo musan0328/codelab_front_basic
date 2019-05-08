@@ -1,0 +1,78 @@
+@charset "utf-8";
+body {
+  background: #f0f8ff;
+}
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  /* max-width: calc(1280/1920*100%); */
+  margin: 0 auto;
+  font-size: 20px;
+  /* text-align: center; */
+}
+
+.header {
+  background: #e6e6fa;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.main {
+  background: #fa8072; 
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 10px 0;
+}
+
+.text {
+   background: orange;
+}
+
+.list {
+   background: green;
+   padding: 50px;
+}
+
+.list ul li {
+  display: inline-block;   /*  */
+}
+
+.margin {
+   margin: 30px 0;   /* margin 外側に余白つける */
+}
+
+.maincontents {
+  background: red; 
+  order: 2;
+  width: 50%;
+  margin: 0 30px;
+}
+
+.sidemenu1 {
+  background: #FFFFCC;
+  /* min-height: 400px;   min-height  imgなどの領域の高さの最小値を指定する */
+  /*height: 650px;*/
+
+  /* padding: 200px 0;   padding 要素内の余白を設定 */
+  order: 1;  /* 並び順を指定する*/
+  width: 20%;
+}
+
+.sidemenu2 {
+  background: blue;
+  /* min-height: 400px;   min-height  imgなどの領域の高さの最小値を指定する */
+  /*float: right;
+  padding: 130px 0;*/
+  /* padding: 200px 0; */
+  order: 3;  /* 並び順を指定する */
+  width: 30%;
+  
+}
+
+.footer {
+  background: #add8e6;
+}
+
+
+

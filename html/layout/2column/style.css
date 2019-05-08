@@ -1,0 +1,70 @@
+@charset "utf-8";
+body {
+  background: #f0f8ff;
+  width: 980px;
+  margin: 0 auto;
+  /* margin: 0 auto  div要素を中央に揃える */
+}
+
+* {
+  box-sizing: boder-box;
+}
+
+.wrap {
+  max-width: calc(1280/1920*100%);
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+  position: relative; /* 相対位置　*/
+
+}
+
+.header {
+  background: #e6e6fa;
+  /*height: 100px;*/
+  padding: 50px 0;   /* padding 文字の配置を決める  */
+}
+
+.main {
+  display: flex;   /* 親要素に指定するだけで両端揃えることできるよ　*/
+  height: 500px;
+}
+
+.maincontents {
+  /*width: auto;*/
+  width: 60%; 
+  /* padding: 50px; */
+  /*height: 500px;*/
+  /* min-height: 100px;   /*min-height <div>、<p>など、内容領域における高さ最小値を指定するプロパティ */
+  background: #fa8072;
+  line-height: 500px;  /*上下中央寄せにしたい場合line-heightの高さを親要素の高さと同じにする　heightの数字に合わせる　 */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.sidemenu {
+  background: #FFFFCC;
+  /*width: auto;*/
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding:  50px; */
+  /* min-height: 400px;   min-height  imgなどの領域の高さの最小値を指定する */
+  /*height: 650px;*/
+}
+
+.footer {
+
+  /* width: 100%; */
+  /* height: 100px; */
+  background: #add8eb;
+  /*margin-top: 10px;*/
+  /* text-align: center; */
+  padding: 50px 0;
+
+  /*position: absolute; /* 絶対領域*/
+  /*bottom: 0;  下に固定　*/
+}
+
